@@ -1,7 +1,7 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(name = "temppack",
-      packages = ['temppack'],
+      packages = find_packages(),
       download_url = "https://github.com/kailash1011/temppack/archive/v_0.1.tar.gz",
       version = '1.0',
       description = "Complete module to convert units of temperature.",
